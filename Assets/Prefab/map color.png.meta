@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: da91b4ddedf907148ad5590bcb76dd9f
+guid: c3f269791d1f0184b8da4d650b1e275c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3932368096518908566
-    second: enemy down_0
+      213: -5034568230690788031
+    second: map color_0
   - first:
-      213: -2491842302060564526
-    second: enemy down_1
+      213: 3577102613621461806
+    second: map color_1
   - first:
-      213: -2578793958113255237
-    second: enemy down_2
+      213: -6977486629304533658
+    second: map color_2
   - first:
-      213: -6269759311023779789
-    second: enemy down_3
+      213: 5045573068612684023
+    second: map color_3
+  - first:
+      213: 5227993095082449577
+    second: map color_4
+  - first:
+      213: -5599106659806838182
+    second: map color_5
+  - first:
+      213: -5960497687713365741
+    second: map color_6
+  - first:
+      213: 7986097445905933801
+    second: map color_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy down_0
+      name: map color_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 511
-        width: 444
-        height: 451
+        x: 6
+        y: 16
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6559e00d0c6d69c0800000000000000
-      internalID: -3932368096518908566
+      spriteID: 14d65345ede912ab0800000000000000
+      internalID: -5034568230690788031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy down_1
+      name: map color_1
       rect:
         serializedVersion: 2
-        x: 568
-        y: 511
-        width: 409
-        height: 451
+        x: 7
+        y: 22
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2df636de0a23b6dd0800000000000000
-      internalID: -2491842302060564526
+      spriteID: e235702ffdb64a130800000000000000
+      internalID: 3577102613621461806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy down_2
+      name: map color_2
       rect:
         serializedVersion: 2
-        x: 49
-        y: 48
-        width: 442
-        height: 442
+        x: 11
+        y: 16
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb06cb1ee88463cd0800000000000000
-      internalID: -2578793958113255237
+      spriteID: 66df34301ecfa2f90800000000000000
+      internalID: -6977486629304533658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy down_3
+      name: map color_3
       rect:
         serializedVersion: 2
-        x: 534
-        y: 47
-        width: 441
-        height: 443
+        x: 13
+        y: 22
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,8 +198,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 330da3f00275df8a0800000000000000
-      internalID: -6269759311023779789
+      spriteID: 7f8cfea29f9750640800000000000000
+      internalID: 5045573068612684023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map color_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa959855009d8840800000000000000
+      internalID: 5227993095082449577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map color_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5280b2882afb42b0800000000000000
+      internalID: -5599106659806838182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map color_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311ce4fdeee084da0800000000000000
+      internalID: -5960497687713365741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map color_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5a0ec905154de60800000000000000
+      internalID: 7986097445905933801
       vertices: []
       indices: 
       edges: []
@@ -203,10 +299,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemy down_0: -3932368096518908566
-      enemy down_1: -2491842302060564526
-      enemy down_2: -2578793958113255237
-      enemy down_3: -6269759311023779789
+      map color_0: -5034568230690788031
+      map color_1: 3577102613621461806
+      map color_2: -6977486629304533658
+      map color_3: 5045573068612684023
+      map color_4: 5227993095082449577
+      map color_5: -5599106659806838182
+      map color_6: -5960497687713365741
+      map color_7: 7986097445905933801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
